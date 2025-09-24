@@ -19,7 +19,7 @@ function agregarAmigo(){
 }
 
 function mostrarAmigosEnLista() {
-  const listaHTML = document.getElementById('lista-amigos');
+  const listaHTML = document.getElementById('listaAmigos');
   listaHTML.innerHTML = '';
   for (let i = 0; i < amigos.length; i++) {
     const nuevoElementoLista = document.createElement('li');

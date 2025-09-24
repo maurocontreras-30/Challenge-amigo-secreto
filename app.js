@@ -14,5 +14,5 @@ function agregarAmigo(){
   }
   amigos.push(nombre);
   console.log('Lista de amigos actualizada:', amigos);
-  
+    campoNombre.value = ''
 }

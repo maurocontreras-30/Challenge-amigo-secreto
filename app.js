@@ -27,7 +27,7 @@ function mostrarAmigosEnLista() {
     listaHTML.appendChild(nuevoElementoLista);
   } }
 
-  function sortear() {
+  function sortearAmigo() {
   if (amigos.length < 1) {
     alert('¡No hay amigos disponibles para sortear!');
     return;

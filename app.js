@@ -2,4 +2,8 @@
 // ver si se realizan cambios.
 let amigos = []
 
-function agregarAmigo(){}
+function agregarAmigo(){
+    // 1. Capturar el valor del campo de entrada
+    // CAMBIO el id 'nombre-amigo'
+    const campoNombre = document.getElementById('nombre-amigo');
+}

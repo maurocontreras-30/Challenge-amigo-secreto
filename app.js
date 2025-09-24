@@ -13,4 +13,6 @@ function agregarAmigo(){
     return; // Sale de la función si la validación falla.
   }
   amigos.push(nombre);
+  console.log('Lista de amigos actualizada:', amigos);
+  
 }

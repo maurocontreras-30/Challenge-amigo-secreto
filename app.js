@@ -25,4 +25,18 @@ function mostrarAmigosEnLista() {
     const nuevoElementoLista = document.createElement('li');
     nuevoElementoLista.textContent = amigos[i];
     listaHTML.appendChild(nuevoElementoLista);
+  } }
+
+  function sortear() {
+  if (amigos.length < 1) {
+    alert('¡No hay amigos disponibles para sortear!');
+    return;
   }
+
+  const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+  const amigoSorteado = amigos[indiceAleatorio];
+
+  // Modificación aquí: usamos el ID 'resultado' de tu HTML
+  const resultadoHTML = document.getElementById('resultado');
+  resultadoHTML.innerHTML = `<li>¡El amigo sorteado es: **${amigoSorteado}**!</li>`;
+}

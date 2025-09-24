@@ -12,4 +12,5 @@ function agregarAmigo(){
     alert('Por favor, inserte un nombre.');
     return; // Sale de la función si la validación falla.
   }
+  amigos.push(nombre);
 }
